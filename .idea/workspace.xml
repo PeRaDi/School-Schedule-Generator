@@ -5,22 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="206f6185-6c8c-4f00-ba94-3c33d297c557" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pt/ipca/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pt/ipca/data/Class.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pt/ipca/data/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pt/ipca/data/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pt/ipca/io/FileReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/School-Schedule-Generator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/School-Schedule-Generator.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schedule.json" beforeDir="false" afterPath="$PROJECT_DIR$/schedule.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pt/ipca/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pt/ipca/data/Class.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pt/ipca/data/Course.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pt/ipca/data/Teacher.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pt/ipca/io/FileReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/ipca/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/ipca/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +47,21 @@
     &quot;last_opened_file_path&quot;: &quot;C:/School-Schedule-Generator&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="School-Schedule-Generator" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="School-Schedule-Generator" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

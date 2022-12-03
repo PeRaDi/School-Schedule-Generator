@@ -42,7 +42,7 @@ public class Main {
          * 14-16 |  2,0  |  2,1  |  2,2  |
          *       |_______|_______|_______|
          */
-        ArrayList<ArrayList<HashMap<Course, Class>>> schedule = new ArrayList<>();
+        ArrayList<ArrayList<ArrayList<Class>>> schedule = new ArrayList<>();
 
         // System.out.println(classes);
         // System.out.println(courses);
