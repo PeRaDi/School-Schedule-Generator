@@ -122,7 +122,6 @@ public class Main {
         return true;
     }
 
-    //generate a random population of schedules
     public static ArrayList<ArrayList<ArrayList<ArrayList<Class>>>> generateRandomPopulation(int size, ArrayList<Class> classes, int numberOfRooms) {
         ArrayList<ArrayList<ArrayList<ArrayList<Class>>>> population = new ArrayList<>();
         for (int i = 0; i < size; i++) {
@@ -131,7 +130,6 @@ public class Main {
         return population;
     }
 
-    //generate a new population from the old one
     public static ArrayList<ArrayList<ArrayList<ArrayList<Class>>>> generatePopulation(ArrayList<ArrayList<ArrayList<ArrayList<Class>>>> population, ArrayList<Class> classes, int numberOfRooms) {
         ArrayList<ArrayList<ArrayList<ArrayList<Class>>>> newPopulation = new ArrayList<>();
         if (population == null) population = generateRandomPopulation(100, classes, numberOfRooms);
@@ -145,7 +143,6 @@ public class Main {
         return newPopulation;
     }
 
-    //generate a fitness score function that lowers the score for better solutions of schedules
     public static int getFitness(ArrayList<ArrayList<ArrayList<Class>>> schedule) {
         int score = 0;
         //dias da semana
@@ -181,7 +178,6 @@ public class Main {
         return score;
     }
 
-    //generate a genetic algorithm that uses the fitness function to generate a random population and select the best solutions
     public static ArrayList<ArrayList<ArrayList<Class>>> geneticAlgorithm(ArrayList<Class> classes, int numberOfRooms) {
         ArrayList<ArrayList<ArrayList<ArrayList<Class>>>> population = generateRandomPopulation(1000, classes, numberOfRooms);
         int generation = 1;
@@ -207,7 +203,6 @@ public class Main {
         return population.get(0);
     }
 
-    //generate a hashmap with the fitness of each schedule
     public static HashMap<ArrayList<ArrayList<ArrayList<Class>>>, Integer> getFitnessMap(ArrayList<ArrayList<ArrayList<ArrayList<Class>>>> population) {
         HashMap<ArrayList<ArrayList<ArrayList<Class>>>, Integer> fitnessMap = new HashMap<>();
         for (int i = 0; i < population.size(); i++) {
@@ -216,7 +211,6 @@ public class Main {
         return fitnessMap;
     }
 
-    //reproduce a child from 2 parents
     public static ArrayList<ArrayList<ArrayList<Class>>> reproduce(ArrayList<ArrayList<ArrayList<Class>>> parent1, ArrayList<ArrayList<ArrayList<Class>>> parent2) {
         ArrayList<ArrayList<ArrayList<Class>>> child = new ArrayList<>();
         for (int i = 0; i < parent1.size(); i++) {
@@ -234,7 +228,6 @@ public class Main {
         return child;
     }
 
-    //mutate a schedule
     public static ArrayList<ArrayList<ArrayList<Class>>> mutate(ArrayList<ArrayList<ArrayList<Class>>> schedule) {
         ArrayList<ArrayList<ArrayList<Class>>> newSchedule = new ArrayList<>();
         for (int i = 0; i < schedule.size(); i++) {
