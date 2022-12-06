@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="School-Schedule-Generator" target="18" />
+      <module name="School-Schedule-Generator" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>

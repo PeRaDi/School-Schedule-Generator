@@ -18,4 +18,16 @@ public class Class {
     public String toString() {
         return "[" + this.id + ", " + this.label + ", " + this.teacherId + ", " + this.courseId + "]";
     }
+
+    public int getId() {
+        return id;
+    }
+
+    public int getTeacherId() {
+        return this.teacherId;
+    }
+
+    public int getCourseId() {
+        return courseId;
+    }
 }

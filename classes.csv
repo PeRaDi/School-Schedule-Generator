@@ -1,4 +1,61 @@
 id,label,teacherId,courseId
-1,a,1,1
-2,b,2,2
-3,c,3,3
+1,Programação Imperativa,1,1
+2,Programação Imperativa,1,4
+3,Programação Imperativa,2,7
+4,Programação Imperativa,2,10
+5,Algoritmia,3,1
+6,Algoritmia,3,4
+7,Algoritmia,9,7
+8,Algoritmia,9,10
+9,POO,10,1
+10,POO,10,4
+11,POO,8,7
+12,POO,8,10
+13,Redes,6,1
+14,Redes,6,4
+15,Redes,4,7
+16,Redes,4,10
+17,Física,5,1
+18,Física,5,4
+19,Física,7,7
+20,Física,7,10
+21,Programação Web,11,2
+22,Programação Web,11,5
+23,Programação Web,10,8
+24,Programação Web,10,11
+25,Álgebra,13,2
+26,Álgebra,13,5
+27,Álgebra,12,8
+28,Álgebra,12,11
+29,Cálculo,14,2
+30,Cálculo,14,5
+31,Cálculo,14,8
+32,Cálculo,14,11
+33,Comunicação de Dados,6,2
+34,Comunicação de Dados,6,5
+35,Comunicação de Dados,8,8
+36,Comunicação de Dados,8,11
+37,Sistemas Operativos,4,2
+38,Sistemas Operativos,4,5
+39,Sistemas Operativos,7,8
+40,Sistemas Operativos,7,11
+41,Projeto Aplicado,1,1
+42,Projeto Aplicado,1,4
+43,Projeto Aplicado,2,7
+44,Projeto Aplicado,2,10
+45,Inteligência Artificial,15,3
+46,Inteligência Artificial,15,6
+47,Inteligência Artificial,8,9
+48,Inteligência Artificial,8,12
+49,Programação Móvel,10,3
+50,Programação Móvel,10,6
+51,Programação Móvel,8,9
+52,Programação Móvel,8,12
+53,Projeto Aplicado,9,3
+54,Projeto Aplicado,9,6
+55,Projeto Aplicado,1,9
+56,Projeto Aplicado,1,12
+57,Integração de Sistemas,16,3
+58,Integração de Sistemas,16,6
+59,Integração de Sistemas,5,9
+60,Integração de Sistemas,5,12

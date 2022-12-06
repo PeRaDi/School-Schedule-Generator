@@ -12,8 +12,8 @@ import java.util.Scanner;
 
 public class FileReader {
 
-    public static List<Class> readClasses() throws FileNotFoundException {
-        List<Class> classes = new ArrayList<Class>();
+    public static ArrayList<Class> readClasses() throws FileNotFoundException {
+        ArrayList<Class> classes = new ArrayList<Class>();
 
         Scanner sc = new Scanner(new File(System.getProperty("user.dir") + "\\classes.csv"));
 
@@ -32,8 +32,8 @@ public class FileReader {
         return classes;
     }
 
-    public static List<Course> readCourses() throws FileNotFoundException {
-        List<Course> courses = new ArrayList<Course>();
+    public static ArrayList<Course> readCourses() throws FileNotFoundException {
+        ArrayList<Course> courses = new ArrayList<Course>();
 
         Scanner sc = new Scanner(new File(System.getProperty("user.dir") + "\\courses.csv"));
 
@@ -52,8 +52,8 @@ public class FileReader {
         return courses;
     }
 
-    public static List<Teacher> readTeachers() throws FileNotFoundException {
-        List<Teacher> teachers = new ArrayList<Teacher>();
+    public static ArrayList<Teacher> readTeachers() throws FileNotFoundException {
+        ArrayList<Teacher> teachers = new ArrayList<Teacher>();
         File f = new File(System.getProperty("user.dir") + "\\teachers.csv");
         Scanner sc = new Scanner(f);
 
